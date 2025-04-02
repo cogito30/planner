@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스톱워치</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2><a href="../index.html">Planner</a></h2>
+    </header>
+
+    <div class="container">
+        <div class="stopwatch">00:00:00.000</div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+    
+    <div class="records">
+        <h3>Records</h3>
+        <button onclick="recordTime()">Record</button>
+        <button onclick="resetRecords()">Record Reset</button>
+        <button onclick="saveRecords()">Save Records</button>
+        <div id="recordList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

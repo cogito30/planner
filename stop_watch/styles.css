@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+header {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.stopwatch {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.records {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.records h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.records button {
+    margin-bottom: 10px;
+}
+
+.record-date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
