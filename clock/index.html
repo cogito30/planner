@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <select id="timezone">
+        <option value="UTC">UTC</option>
+        <option value="America/New_York">New York (EST)</option>
+        <option value="Europe/London">London (GMT)</option>
+        <option value="Asia/Tokyo">Tokyo (JST)</option>
+        <option value="Asia/Seoul" selected>Seoul (KST)</option>
+    </select>
+    <div class="clock">
+        <div class="date" id="date"></div>
+        <div class="day" id="day"></div>
+        <div class="time" id="time"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
